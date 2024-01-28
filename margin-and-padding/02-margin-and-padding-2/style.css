@@ -20,11 +20,11 @@ body {
 }
 
 .title {
-  /*Keeping this here just in case something else is needed from it.*/
+  font-size: 18px;
 }
 
 .content {
-  /*Keeping this here just in case something else is needed from it.*/
+  padding: 16px 8px;
 }
 
 .button-container {
@@ -33,9 +33,9 @@ body {
 
 button {
   text-align: center;
-  margin: auto;
+  margin: 0 auto;
+  padding: 8px 24px;
   display: block;
   background: white;
   border: 1px solid #eee;
-  font-size: 18px;
 }
