@@ -1,6 +1,13 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  /* This is all flex info */
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
 }
 
 .logo {
@@ -9,11 +16,15 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  justify-self: center;
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: inline-flex;
+  padding-inline-start: 0;
+  gap: 10px;
 }
 
 a {
@@ -21,5 +32,5 @@ a {
   background: white;
   padding: 8px;
   /* this removes the line under the links */
-  text-decoration: none;
+  text-decoration: none; 
 }
